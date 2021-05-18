@@ -1,0 +1,392 @@
+.items-hilo
+  border-bottom: 2px solid #e6e6e6
+.items-hilo:first-child
+  border-top: 2px solid #e6e6e6
+
+.lista-redonda li > span
+  border-radius: 50%
+  background-color: #ea3065
+  color: #FFF
+  width: 23px
+  height: 23px
+  text-align: center
+  line-height: 25px
+  font-size: 15px
+.lista-redonda-2 .lista-ol--cuadro__vineta
+  border-radius: 50%
+  font-size: 22px
+  font-weight: 600
+  min-width: 32px
+  height: 32px
+.lista-redonda-3 .lista-ol--cuadro__vineta
+  border-radius: 50%
+  font-size: 18px
+  font-weight: 600
+  min-width: 26px
+  height: 26px  
+
+
+.tarjeta-num
+  margin-right: 15px
+
+.tarjeta-Hilo
+  height: 100%
+  margin-bottom: 25px
+.tarjeta-Hilo img
+  width: 20%
+
+.lista-centrada li  
+  justify-content: center;
+.borde-bottom  
+  border-bottom: 2px solid #EA3065
+  padding-bottom: 6px
+
+.tabs-a__tab
+  background-color: #E8E8E8  
+
+.tarjeta.color-secundario 
+  background-color: #FFF2C7
+
+.cajon.color-acento-botones 
+  background-color: #FFF2C7
+
+.cajon.color-secundario 
+  background-color: #fff8e2
+
+.tabla-1 table thead th
+    border-color: #d8d8d8
+.tabla-1 table thead td
+  background-color: #F6F6F6
+
+.tabla-a2 thead  
+  background-color: #895CD8
+  text-align: center
+  color: #FFF
+
+.tabla-b thead
+  background-color: #EADEFF
+
+.tabla-a3__header
+  background-color: #895CD8
+  padding: 15px
+  text-align: center
+.tabla-a3__header * 
+    color: #fff;
+.tabla-a3 thead  
+  background-color: #EADEFF
+.tabla-a3 thead th
+  padding: 15px 0px
+.tabla-a3 th
+  background-color: #EADEFF
+  width: 130px
+.tabla-a3 td
+  padding: 5px 0px 
+
+.color-acento-contenido2 
+  background-color: #EDE9F4
+  border: 0px
+.color-acento-contenido2 .tarjeta-numerada__numero
+  background-color: #EA3065
+  border-radius: 0px    
+  width: 70px
+  height: 70px
+.color-acento-contenido2 .tarjeta-numerada__numero .h4
+  font-size: 40px
+
+.slyder1-1 
+  background-color: #F4FAFE
+  border-bottom: 5px solid #7B1FA2
+.slyder1-1 .slyder-b__img 
+  width: 265px
+  margin: 0 auto
+.slyder1-1 .slyder-b__slyde .h3
+  font-size: 20px  
+.slyder1-2
+  background-color: #F4FAFE
+  border-bottom: 5px solid #7B1FA2
+.slyder1-2 .slyder-b__img 
+  width: 200px
+  margin: 0 auto
+.slyder1-2 .slyder-b__slyde .h3
+  font-size: 20px  
+
+
+.tabs-funcion-aguja .tabs-c 
+  border-bottom: 0px
+.tabs-funcion-aguja .tabs-c__header span
+  color: #FFF
+  background-color: #7B1FA2
+  border-radius: 50%
+  width: 65px
+  height: 65px
+  font-weight: 700
+  font-size: 30px
+  line-height: 65px
+.tabs-tipos-arrastre .tabs-c 
+  border-bottom: 0px  
+
+.text-acento span 
+  color: #EA3065
+  font-weight: bold
+
+.tarjeta--azul2
+  background-color: #F4FAFE
+  border-bottom: 5px solid #7B1FA2
+.tarjeta--azul2-1  
+  background-color: #F4FAFE
+
+
+
+
+
+$buttonRadius: 20px;
+$labelBorderRadius: 1px
+$labelFade: 0.1s
+$colorButton: #EA3065
+$colorButtonHover: #EA3065
+$colorText: #333
+$colorHeadingBackground: #895CD8
+
+.contenedor
+  width: 100%
+  padding: 1em
+  display: flex;
+  flex-flow: column nowrap
+  justify-content: flex-start
+  align-items: center
+
+.lg-container 
+  position: relative
+  padding: 0
+
+.lg-image 
+  display: block
+  height: 100%
+  width: 100%
+  object-fit: scale-down
+
+.lg-hotspot 
+  position: absolute
+  margin: 0
+  padding: 0
+  transform: translate(-50%, -50%)
+  z-index: 0
+  &:hover,
+  &:active 
+    //  z-index: 999;
+    cursor: pointer
+    .lg-hotspot__button 
+      border-color: $colorButtonHover
+      &:after 
+        background-color: $colorButtonHover
+  
+  &:hover
+    z-index: 999;
+    
+    .lg-hotspot__label 
+      opacity: 1
+      border-bottom: 5px solid #7B1FA2
+         
+  &__button 
+    height: $buttonRadius * 1.2
+    width: $buttonRadius * 1.2
+    padding: 0px
+    border-radius: 100%
+    border: 1px solid $colorButton
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+    z-index: 999
+    animation: button-pulse 7s ease-in-out infinite
+    &:after 
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      pointer-events: none
+      content: ""
+      display: block
+      height: $buttonRadius * 0.9
+      width: $buttonRadius * 0.9
+      border-radius: 100%
+      border: 3px solid white
+      background-color: $colorButton
+      transition: border-color 1s linear
+    
+  &__label 
+    min-width: 350px
+    position: absolute
+    background-color: white
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+    font-size: 14.5px
+    line-height: 1.45em
+    z-index: -1
+    pointer-events: none
+    border-radius: $labelBorderRadius
+    user-select: none
+    opacity: 0
+    transition: all $labelFade linear
+    h4 
+      margin: 0
+      background-color: $colorHeadingBackground
+      font-size: 1.1em
+      font-weight: normal
+      letter-spacing: 0.02em
+      color: white
+      border-radius: $labelBorderRadius $labelBorderRadius 0 0;   
+    p 
+      margin: 0
+      color: $colorText
+      font-size: 14px
+      line-height: 18px
+  @media (max-width: 720px)
+    &__label 
+      min-width: 200px
+    &__label p
+      text-align: center
+      padding: 4px 
+    &__button
+      height: 12px
+      width: 12px
+      &:after
+        height: 9px
+        width: 9px
+        border: 2px solid white
+
+    
+.lg-hotspot--1 .lg-hotspot__label 
+  top: $buttonRadius
+  right: $buttonRadius
+.lg-hotspot--2 .lg-hotspot__label 
+  top: $buttonRadius
+  left: $buttonRadius
+        
+/* Mobile */
+@media (max-width: 720px)
+  .lg-mobile1-1
+    top: 13% !important
+    left: 23% !important
+  .lg-mobile1-2
+    top: 42% !important
+    left: 18% !important
+  .lg-mobile1-3
+    top: 47% !important
+    left: 13% !important
+  .lg-mobile1-4
+    top: 47% !important
+    left: 73% !important
+  .lg-mobile1-5
+    top: 57% !important
+    left: 75% !important
+  .lg-mobile1-7
+    top: 61% !important
+    left: 12% !important
+  .lg-mobile-8
+    top: 68% !important
+    left: 17% !important  
+  .lg-mobile-9
+    top: 70% !important
+    left: 9% !important  
+  .lg-mobile-10
+    top: 66% !important
+    left: 6% !important
+  .lg-hotspot--2 .lg-hotspot__label 
+    top: 10px;
+    left: 14px;  
+  .lg-hotspot--1 .lg-hotspot__label
+    top: 11px;
+    right: 12px;  
+
+  .modal-2 .lg-hotspot__label
+    min-width: 170px
+  .lg-mobile2-1
+    top: 17% !important
+    left: 50% !important
+  .lg-mobile2-2
+    top: 37% !important
+    left: 43% !important
+  .lg-mobile2-3
+    top: 69% !important
+    left: 40% !important
+  .lg-mobile2-4
+    top: 43% !important
+    left: 11% !important
+  .lg-mobile2-5
+    top: 46% !important
+    left: 84% !important
+  .lg-mobile2-6
+    top: 10% !important
+    left: 42% !important
+
+  .lg-mobile3-1
+    top: 7% !important
+    left: 44% !important
+  .lg-mobile3-2
+    top: 59% !important
+    left: 24% !important
+  .lg-mobile3-3
+    top: 22% !important
+    left: 36% !important
+  .lg-mobile3-4
+    top: 20% !important
+    left: 26% !important
+  .lg-mobile3-5
+    top: 67% !important
+    left: 23% !important
+  .lg-mobile3-6 
+    top: 71% !important
+    left: 27% !important
+  .lg-mobile3-7
+    top: 72% !important
+    left: 18% !important    
+
+  .lg-mobile4-1
+    top: 8% !important
+    left: 32% !important
+  .lg-mobile4-2
+    top: 20% !important
+    left: 25% !important
+  .lg-mobile4-3
+    top: 18% !important
+    left: 20% !important
+  .lg-mobile4-4
+    top: 67% !important
+    left: 16% !important
+  .lg-mobile4-5
+    top: 53% !important
+    left: 20% !important
+  .lg-mobile4-6 
+    top: 60% !important
+    left: 20% !important
+  .lg-mobile4-7
+    top: 50% !important
+    left: 33% !important
+  .lg-mobile4-8
+    top: 63% !important
+    left: 24% !important   
+
+  .modal-5 .lg-hotspot__label
+    min-width: 170px
+  .lg-mobile5-1
+    top: 28% !important
+    left: 49% !important
+  .lg-mobile5-2
+    top: 33% !important
+    left: 17% !important
+  .lg-mobile5-3
+    top: 63% !important
+    left: 62% !important
+  .lg-mobile5-4
+    top: 71% !important
+    left: 57% !important
+
+
+@keyframes button-pulse 
+  0% 
+    transform: scale(1, 1)
+    opacity: 1
+  40% 
+    transform: scale(1.15, 1.15)
+    opacity: 1
+  100% 
+    transform: scale(1, 1)
+    opacity: 1
+
