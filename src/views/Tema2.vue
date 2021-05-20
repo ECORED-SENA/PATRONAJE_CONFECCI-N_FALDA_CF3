@@ -1357,13 +1357,13 @@ export default {
         titulo: 'Metro',
         texto:
           'Utilizado para medir contornos y largos sobre el cuerpo humano o las prendas de vestir.',
-        imagen: require('@/assets/curso/lapiz-blanco.jpg'),
+        imagen: require('@/assets/curso/metro.jpg'),
       },
       {
         titulo: 'Cinta de enmascarar',
         texto:
           'Es una cinta adhesiva, elaborada en papel que en confección se utiliza para hacer guías que posteriormente se colocarán en la máquina y servirán para mantener el margen en una costura.',
-        imagen: require('@/assets/curso/lapiz-blanco.jpg'),
+        imagen: require('@/assets/curso/cinta-enmascarar.jpg'),
       },
       {
         titulo: 'Pinzas para enhebrar',
