@@ -28,7 +28,7 @@
               i.fas.fa-file-download
 
     .row  
-      p.mb-5 Para dar un buen cierre a este proceso formativo se le invita a a observar el paso a paso de confección de falda básica, se recomienda identificar los métodos de trabajo asociados a los procesos de costura, lo cuales deberá aplicar en el ejercicio de confección de la falda. 
+      p.mb-5 Para dar un buen cierre a este proceso formativo se le invita a observar el paso a paso de confección de falda básica, se recomienda identificar los métodos de trabajo asociados a los procesos de costura, lo cuales deberá aplicar en el ejercicio de confección de la falda. 
 
       .h5 1. Alistamiento
       figure

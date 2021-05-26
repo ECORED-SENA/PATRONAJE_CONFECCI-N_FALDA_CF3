@@ -10,7 +10,9 @@
 
     figure.mb-4
       img(src='@/assets/curso/banner-tema2.jpg', alt='Maquinaria, equipos y herramientas para la confección de falda básica: tipos y usos')
-    p.mb-5 Amaden-Crawford (2014), define la función de la máquina de coser así “la máquina de coser utiliza una aguja y un gancho rotatorio para entrelzar dos hilos creando así un prespunte, esa es su función”, en la actualidad existen gran variedad de máquinas utilizadas para la confección de prendas de vestir que se encuentran divididas según su uso en familiares e industriales, como se explicará a continuación.  
+    p.mb-5 Amaden-Crawford (2014), define la función de la máquina de coser así 
+      strong “la máquina de coser utiliza una aguja y un gancho rotatorio para entrelzar dos hilos creando así un prespunte, esa es su función”, 
+      | en la actualidad existen gran variedad de máquinas utilizadas para la confección de prendas de vestir que se encuentran divididas según su uso en familiares e industriales, como se explicará a continuación.  
     
 
     // 2.1
@@ -735,7 +737,7 @@
                 .col-lg-6.p-3
                   p 
                     strong Cuchilla fija y cuchilla movible
-                  p Es movible y permite el transporte de la tela ajustándola.               
+                  p Son las encargadas de cortar o refilar el material.               
           .lg-hotspot.lg-hotspot--1.lg-mobile5-4(style="top: 76%;left: 57%;")  
             .lg-hotspot__button
             .lg-hotspot__label
@@ -801,7 +803,7 @@
             li.mb-5
               .lista-ol--cuadro__vineta
                 span a
-              | Mesa: Soporta el cabezote, el porta-conos, canal de residuos y el motor. Además, facilita el manejo de los materiales. 
+              | Mesa: soporta el cabezote, el porta-conos, canal de residuos y el motor. Además, facilita el manejo de los materiales. 
             li.mb-5
               .lista-ol--cuadro__vineta
                 span b
@@ -936,9 +938,13 @@
 
     // 2.2.2.5.		 
     .h5 Tipos de fileteadora
-    p.mb-4 Las fileteadoras son parte de la maquinaria esencial que se requieren en los talleres y su uso es tan amplio que no se define una sola máquina sino varias referencias que se agrupan por hilos y puntadas como se describe a continuación:   
+    p.mb-5 Las fileteadoras son parte de la maquinaria esencial que se requieren en los talleres y su uso es tan amplio que no se define una sola máquina sino varias referencias que se agrupan por hilos y puntadas como se describe a continuación:   
 
-    .row.justify-content-md-center
+    .row.justify-content-md-center.mb-5
+      .row.justify-content-md-center.mb-2.p-2
+        .col-lg-10
+          .h6.titulo__template--a Fileteadora de tres hilos, filete sencillo puntada 504
+          p La imagen a continuación presenta derecho y revés de tela, para hacer esta puntada se enhebra una aguja, looper superior y looper inferior, para ello se propone el siguiente ejemplo de uso: unir hombros, cerrar costados, colocar mangas en una camiseta o sobre orillar piezas como falsos, pretinas. 
       .col-lg-5
           figure
             img(src="@/assets/curso/fileteadora- tres-hilos.jpg", alt="Fileteadora de tres hilos")
@@ -948,13 +954,13 @@
             img(src="@/assets/curso/derecho-reves-puntada-504.jpg", alt="Derecho y revés de la puntada 504")    
             figcaption Derecho y revés de la puntada 504
       
-      
-      .row.justify-content-md-center.mb-3.p-4
-        .col-lg-10
-          .h6.titulo__template--a Fileteadora de tres hilos, filete sencillo puntada 504
-          p La imagen a continuación presenta derecho y revés de tela, para hacer esta puntada se enhebra una aguja, looper superior y looper inferior, para ello se propone el siguiente ejemplo de uso: unir hombros, cerrar costados, colocar mangas en una camiseta o sobre orillar piezas como falsos, pretinas. 
 
-    .row.justify-content-md-center
+
+    .row.justify-content-md-center.mb-5
+      .row.justify-content-md-center.mb-2.p-2
+        .col-lg-10
+          .h6.titulo__template--a Fileteadora de cuatro hilos, puntada de refuerzo 514
+          p La imagen a continuación presenta derecho y revés de tela, para realizar esta puntada se enhebran las dos agujas, el looper superior y el looper inferior. Su uso se da em la confección de ropa deportiva y prendas elaboradas en tejido de punto. 
       .col-lg-5
           figure
             img(src="@/assets/curso/fileteadora-cuatro-hilos.jpg", alt="Fileteadora de cuatro hilos")
@@ -962,13 +968,13 @@
       .col-lg-5
           figure
             img(src="@/assets/curso/derecho-reves-puntada-514.jpg", alt="Derecho y revés de la puntada 514")    
-            figcaption Derecho y revés de la puntada 514
-      .row.justify-content-md-center.mb-3.p-4
-        .col-lg-10
-          .h6.titulo__template--a Fileteadora de cuatro hilos, puntada de refuerzo 514
-          p La imagen a continuación presenta derecho y revés de tela, para realizar esta puntada se enhebran las dos agujas, el looper superior y el looper inferior. Su uso se da em la confección de ropa deportiva y prendas elaboradas en tejido de punto. 
+            figcaption Derecho y revés de la puntada 514    
 
     .row.justify-content-md-center.mb-5
+      .row.justify-content-md-center.mb-2.p-2
+        .col-lg-10
+          .h6.titulo__template--a Fileteadora de cinco hilos, filete de puntada de seguridad 516
+          p La imagen presenta derecho y revés, posibilita observar cómo se realiza esta puntada: se enhebran las 2 agujas, el looper superior, looper inferior y looper de seguridad.  Ejemplo de uso: Cerrar un jean, una chaqueta de jean.                       
       .col-lg-5
           figure
             img(src="@/assets/curso/fileteadora-cinco-hilos.jpg", alt="Fileteadora de cinco hilos")
@@ -977,10 +983,6 @@
           figure
             img(src="@/assets/curso/derecho-reves-puntada-516.jpg", alt="Derecho y reves de la puntada 516")    
             figcaption Derecho y reves de la puntada 516
-      .row.justify-content-md-center.mb-3.p-4
-        .col-lg-10
-          .h6.titulo__template--a Fileteadora de cinco hilos, filete de puntada de seguridad 516
-          p La imagen presenta derecho y revés, posibilita observar cómo se realiza esta puntada: se enhebran las 2 agujas, el looper superior, looper inferior y looper de seguridad.  Ejemplo de uso: Cerrar un jean, una chaqueta de jean.                       
 
 
     // 2.2.3.	
@@ -1016,8 +1018,7 @@
 
 
     // 2.2.3.1. 		 
-    .h5 Partes del cabezote
-    p.mb-4 Las fileteadoras son parte de la maquinaria esencial que se requieren en los talleres y su uso es tan amplio que no se define una sola máquina sino varias referencias que se agrupan por hilos y puntadas como se describe a continuación:
+    .h5.mb-5 Partes del cabezote
 
     .row.justify-content-md-center.mb-5
       .col-lg-11  
@@ -1304,13 +1305,13 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Conjunto del prensatela',
+        titulo: 'Conjunto del prénsatela',
         texto:
           '<ul class="lista-ul--color"><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Barra prénsatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Regulador de la presión del prénsatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Palanca articulada para accionar el prénsatela manualmente.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Rodillera.</li> </ul>',
         imagen: require('@/assets/curso/partes-cabezote1.jpg'),
       },
       {
-        titulo: 'Barra prensatela',
+        titulo: 'Barra prénsatela',
         texto:
           'En su extremo se fija el pie prénsatela, por su parte superior recibe la presión ejercida por un resorte o muelle.',
         imagen: require('@/assets/curso/partes-cabezote2.jpg'),
@@ -1373,8 +1374,7 @@ export default {
       },
       {
         titulo: 'Destornillador bristol de 1/16',
-        texto:
-          'Son utilizadas para enhebrar la máquina fileteadora y otros tipos de máquinas que cuentan con guía hilos muy pequeños en espacios difíciles de acceder con los dedos.',
+        texto: 'Utilizado para colocar agujas en la máquina fileteadora.',
         imagen: require('@/assets/curso/destornillador-bristol-116.jpg'),
       },
       {

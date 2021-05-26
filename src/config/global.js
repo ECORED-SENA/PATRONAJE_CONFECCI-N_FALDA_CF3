@@ -191,6 +191,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      regional: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -200,16 +201,44 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Tania Yaneth Ramírez Benítez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        nombre: 'Gina Elizabeth Ortiz García',
+        cargo: 'Experta temática',
+        centro: 'Centro de Manufactura en Textil y Cuero',
+        regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
+        nombre: 'Luis Fernando Botero Mendoza',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Gestión Industrial',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Gestión Industrial',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisión metodológica y pedagógica',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
@@ -223,11 +252,19 @@ export default {
       },
       {
         nombre: 'Juan Carlos Tapias Rueda',
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: ' ',
+        cargo: 'Producción audiovisual',
       },
       {
         nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -237,8 +274,8 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación de recursos',
-        centro: 'Centro de comercio y servicios',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -263,7 +300,7 @@ export default {
     },
     {
       referencia: 'Icontec (2013). NTC 2089. Hilos de algodón para coser.',
-      link: '. https://www.icontec.org/rules/hilos-de-algodon-para-coser/',
+      link: 'https://www.icontec.org/rules/hilos-de-algodon-para-coser/',
     },
   ],
   glosario: [

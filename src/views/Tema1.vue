@@ -79,7 +79,7 @@
                 span.text-bold 3
                 | Bordar a máquina.
           p Por lo anterior, se hace necesario preguntarse en relación con la fabricación de prendas: 
-            strong ¿Qué se debe tener en cuenta al momento de seleccionar un hilo para confección?
+            strong ¿qué se debe tener en cuenta al momento de seleccionar un hilo para confección?
           p.mb-2 Las opciones son las siguientes:
           ul.p-3.lista-ul--color
             li 
@@ -151,7 +151,7 @@
               img.p-4(src='@/assets/curso/hilo-monofilamento.png', alt='Hilo monofilamento')
               figcaption Hilo monofilamento
             .h6.titulo__template--a El hilo monofilamento
-            p Se hace de una sola fibra continua de un grosor especificado. Aunque el monofilamento es fuerte, uniforme y poco costoso de hacer, carece de flexibilidad y tiene una sensación tiesa y áspera; como resultado, su uso normalmente se restringe a bastillas, cortinas y muebles tapizados.
+            p.px-3 Se hace de una sola fibra continua de un grosor especificado. Aunque el monofilamento es fuerte, uniforme y poco costoso de hacer, carece de flexibilidad y tiene una sensación tiesa y áspera; como resultado, su uso normalmente se restringe a bastillas, cortinas y muebles tapizados.
       .col-md
         .row.justify-content-center.mb-4
           .col-12
@@ -159,7 +159,7 @@
               img.p-4(src='@/assets/curso/hilo-multifilamento.png', alt='Hilo multifilamento')
               figcaption Hilo multifilamento
             .h6.titulo__template--a El hilo multifilamento suave
-            p Se elabora comúnmente de nylon o poliéster y se usa donde el requisito primordial de la costura es la fortaleza. Consta de dos o más filamentos continuos torcidos juntos. Se usa comúnmente para coser zapatos, prendas de cuero, y productos industriales.
+            p.px-3 Se elabora comúnmente de nylon o poliéster y se usa donde el requisito primordial de la costura es la fortaleza. Consta de dos o más filamentos continuos torcidos juntos. Se usa comúnmente para coser zapatos, prendas de cuero, y productos industriales.
       .col-md
         .row.justify-content-center.mb-4
           .col-12
@@ -167,7 +167,7 @@
               img.p-4(src='@/assets/curso/hilo-de-filamento-texturizado.png', alt='Hilo de filamento texturizado')
               figcaption Hilo de filamento texturizado
             .h6.titulo__template--a El hilo de filamento texturizado
-            p Se hace usualmente de poliéster y se usa primordialmente como el hilo de lanzadera para puntadas de cobertura; por lo que, los filamentos texturizados le dan más cobertura y extensibilidad a la fibra, pero hace que el hilo se enrede más.
+            p.px-3 Se hace usualmente de poliéster y se usa primordialmente como el hilo de lanzadera para puntadas de cobertura; por lo que, los filamentos texturizados le dan más cobertura y extensibilidad a la fibra, pero hace que el hilo se enrede más.
           
 
     // 1.4

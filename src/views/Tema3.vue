@@ -169,7 +169,7 @@
             tbody.text-center  
               tr
                 th(rowspan='2') Grosor de la aguja
-                td Denominación númerica
+                td Denominación numérica
                 td.number 8
                 td.number 9
                 td.number 10
