@@ -156,8 +156,8 @@
 
     .row.justify-content-md-center.mb-5
       .col-lg-11
-        .tabla-a3.color-primario.mb-5
-          .tabla-a3__header
+        .tabla-b.color-secundario.tabla-a3.mb-5
+          .tabla-b__header
             .h6.mb-0 Calibre de las agujas
           table.text-center
             thead

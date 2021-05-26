@@ -87,7 +87,9 @@
             img.lg-image(src="@/assets/curso/cabezote-maquina-plana.jpg", alt="Cabezote máquina plana")
             figcaption Cabezote máquina plana - Tocar los puntos
           .lg-hotspot.lg-hotspot--2.lg-mobile1-1(style="top: 13%; left: 23%;")  
-            .lg-hotspot__button
+            .lg-hotspot__button(@mouseover="indicador1 = false")
+              .indicador-interaccion(v-if="indicador1")
+                .indicador-interaccion__icon
             .lg-hotspot__label
               .row.align-items-center
                 .col-lg-6
@@ -635,7 +637,9 @@
             img.lg-image(src="@/assets/curso/cabezote-maquina-fileteadora.jpg", alt="Cabezote máquina fileteadora")
             figcaption Cabezote máquina fileteadora
           .lg-hotspot.lg-hotspot--1.lg-mobile2-1(style="top: 19%;left: 48%;")  
-            .lg-hotspot__button
+            .lg-hotspot__button(@mouseover="indicador2 = false")
+              .indicador-interaccion(v-if="indicador2")
+                .indicador-interaccion__icon
             .lg-hotspot__label
               .row.align-items-center
                 .col-lg-6
@@ -706,7 +710,9 @@
             img.lg-image(src="@/assets/curso/detalle1-cabezote-maquina-fileteadora.jpg", alt="Detalle 1 cabezote máquina fileteadora")
             figcaption Detalle 1 cabezote máquina fileteadora
           .lg-hotspot.lg-hotspot--1.lg-mobile5-1(style="top: 30%;left: 48%;")  
-            .lg-hotspot__button
+            .lg-hotspot__button(@mouseover="indicador3 = false")
+              .indicador-interaccion(v-if="indicador3")
+                .indicador-interaccion__icon
             .lg-hotspot__label
               .row.align-items-center
                 .col-lg-6
@@ -1027,7 +1033,9 @@
             img.lg-image(src="@/assets/curso/cabezote-ojaladora.jpg", alt="Cabezote ojaladora")
             figcaption Cabezote ojaladora
           .lg-hotspot.lg-hotspot--2.lg-mobile3-1(style="top: 8%;left: 43%;")  
-            .lg-hotspot__button
+            .lg-hotspot__button(@mouseover="indicador4 = false")
+              .indicador-interaccion(v-if="indicador4")
+                .indicador-interaccion__icon
             .lg-hotspot__label
               .row.align-items-center
                 .col-lg-6
@@ -1161,7 +1169,9 @@
             img.lg-image(src="@/assets/curso/maquina-botonadora-aguja.jpg", alt="Máquina botonadora aguja")
             figcaption Máquina botonadora aguja
           .lg-hotspot.lg-hotspot--2.lg-mobile4-1(style="top: 8%;left: 32%;")  
-            .lg-hotspot__button
+            .lg-hotspot__button(@mouseover="indicador5 = false")
+              .indicador-interaccion(v-if="indicador5")
+                .indicador-interaccion__icon
             .lg-hotspot__label
               .row.align-items-center
                 .col-lg-6
@@ -1303,6 +1313,11 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    indicador1: true,
+    indicador2: true,
+    indicador3: true,
+    indicador4: true,
+    indicador5: true,
     datosSlyder: [
       {
         titulo: 'Conjunto del prénsatela',

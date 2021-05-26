@@ -17,7 +17,7 @@
           .col-lg-5.p-4
             figure.mb-4
               img(src='@/assets/curso/confeccion-falda-basica.png', alt='Confección falda básica')
-          .col-lg-6.p-5
+          .col-lg-6.p-1
             p.mb-5
             | Para iniciar el proceso de confección es importante conocer primero 
             strong la ficha técnica 

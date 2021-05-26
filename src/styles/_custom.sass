@@ -57,6 +57,14 @@
     border-color: #d8d8d8
 .tabla-1 table thead td
   background-color: #F6F6F6
+.tabla-1 table th.col1
+  width: 14%
+.tabla-1 table th.col2-3
+  width: 37%
+.tabla-1 table th.col2
+  width: 14%
+.tabla-1 table th.col3
+  width: 14%  
 
 .tabla-a2 thead  
   background-color: #895CD8
@@ -147,6 +155,33 @@ $colorButtonHover: #EA3065
 $colorText: #333
 $colorHeadingBackground: #895CD8
 
+.indicador-interaccion
+  position: absolute
+  margin-top: 10px
+  margin-left: 20px
+  top: 100%
+  left: 100%
+  transform: translate(-50%,-50%)
+  pointer-events: none
+  &__icon
+    width: 50px
+    height: 50px
+    background-image: url('../assets/template/puntero.svg')
+    animation: hand-fade-in 3s ease-in-out 3s infinite
+
+@keyframes hand-fade-in
+  0%
+    opacity: 0
+    transform: translate(100px)
+  35%
+    opacity: 1
+    transform: translate(0)
+  100%
+    opacity: 1
+    transform: translate(0)    
+
+
+
 .contenedor
   width: 100%
   padding: 1em
@@ -196,6 +231,7 @@ $colorHeadingBackground: #895CD8
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
     z-index: 999
     animation: button-pulse 7s ease-in-out infinite
+    position: absolute
     &:after 
       position: absolute
       top: 50%

@@ -364,7 +364,7 @@ export default {
       texto: 'SCHMETZ. (2019). ABC de Agujas para máquinas de coser domésticas',
       tipo: 'PDF',
       descarga:
-        '/downloads/ABC_de_ Agujas_para_maquinas_de_coser_domesticas.pdf',
+        '/downloads/ABC_de_agujas_para_maquinas_de_coser_domesticas.pdf',
     },
   ],
 }

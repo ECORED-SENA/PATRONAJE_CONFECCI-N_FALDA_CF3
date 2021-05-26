@@ -20,42 +20,42 @@
       .col-lg-1
       .col-lg-10
         .row.align-items-center.items-hilo.p-3
-          .col-lg-1
+          .col-lg-1.col-4
             figure
               img(src="@/assets/curso/caracteristica-hilo1.png", alt="Resistencia")
-          .col-lg-11
+          .col-lg-11.col-8
             p 
               strong Resistencia
             p Es la tensión o fuerza con la cual es sometido el hilo hasta llegar a punto de ruptura.
         .row.align-items-center.items-hilo.p-3
-          .col-lg-1
+          .col-lg-1.col-4
             figure
               img(src="@/assets/curso/caracteristica-hilo2.png", alt="Resistencia")
-          .col-lg-11
+          .col-lg-11.col-8
             p 
               strong Elongación
             p Es el aumento de la longitud del hilo antes del momento de la ruptura.   
         .row.align-items-center.items-hilo.p-3
-          .col-lg-1
+          .col-lg-1.col-4
             figure
               img(src="@/assets/curso/caracteristica-hilo3.png", alt="Resistencia")
-          .col-lg-11
+          .col-lg-11.col-8
             p 
               strong Mercerización
             p Es la aplicación de soda cáustica a los hilos de algodón 100% con el objetivo de que las fibras cobran brillo, resistencia y una mejor absorción de colorantes.    
         .row.align-items-center.items-hilo.p-3
-          .col-lg-1
+          .col-lg-1.col-4
             figure
               img(src="@/assets/curso/caracteristica-hilo4.png", alt="Resistencia")
-          .col-lg-11
+          .col-lg-11.col-8
             p 
               strong Solidez del color
             p Es la conversión del tono del color del hilo, de acuerdo con las aplicaciones a las que esté sometido.  
         .row.align-items-center.items-hilo.p-3
-          .col-lg-1
+          .col-lg-1.col-4
             figure
               img(src="@/assets/curso/caracteristica-hilo5.png", alt="Resistencia")
-          .col-lg-11
+          .col-lg-11.col-8
             p 
               strong Deslizamiento
             p Es la capacidad que tiene el hilo de desplazarse suavemente a través de las diferentes partes de la máquina y la tela. Esto se logra por medio de la lubricación, la cual le da protección al hilo contra el reviente debido al recalentamiento de la aguja.               
@@ -106,15 +106,15 @@
     .h5 Clasificación basada en substrato
     p.mb-5 Se dice que la clasificación es por substrato, cuando se hace referencia al material y la composición del hilo, dado que dentro del material y su composición se encuentran unas divisiones adicionales que se presentan a continuación.
 
-    .row 
+    .row.mb-5
       .col-md-1.col-lg-1
-      .col-md-5.col-lg.mb-5
+      .col-md-5.col-lg
         .tarjeta-Avatar.tarjeta-Hilo
           img(src='@/assets/curso/hilo-natural.png' alt='Hilo natural')
           .tarjeta.tarjeta--gris.p-4
             .h4.text-center Natural
             p El uso de hilo hecho de substratos naturales es bajo en el trabajo industrial; sin embargo, el hilo natural usado de forma más común es el de algodón. 
-      .col-md-5.col-lg.mb-5
+      .col-md-5.col-lg
         .tarjeta-Avatar.tarjeta-Hilo
           img(src='@/assets/curso/hilo-sintetico.png' alt='Hilo sintetico')
           .tarjeta.tarjeta--gris.p-4
@@ -191,7 +191,7 @@
 
     .row.mb-5
       .col-lg-2
-      .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5
+      .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5.mb-2
         .row.justify-content-md-center.text-center
             ol.lista-ol--cuadro.lista-centrada.text-center.mb-3
               li.text-center
@@ -201,7 +201,7 @@
             p Peso en gramos de
             h3.mb-0 1000  
             p metros de hilo. 
-      .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5
+      .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5.mb-2
         .row.justify-content-md-center.text-center
             ol.lista-ol--cuadro.lista-centrada.text-center.mb-3
               li
@@ -220,7 +220,7 @@
     p.mb-4 Un peso fijo constante de hilo y la longitud variable, es decir indica la longitud de un peso constante:
 
       .row.justify-content-md-center.mb-5
-        .col-lg-3.tarjeta.tarjeta--gris.tarjeta-num.p-5
+        .col-lg-3.tarjeta.tarjeta--gris.tarjeta-num.p-5.mb-2
           .row.justify-content-md-center.text-center
             ol.lista-ol--cuadro.lista-centrada.text-center.mb-3
               li.text-center
@@ -231,7 +231,7 @@
             h3.mb-0.borde-bottom.mb-2 1 gr 
             p por número de madejas de
             h3.mb-0 1000 metros  
-        .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5
+        .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5.mb-2
           .row.justify-content-md-center.text-center
             ol.lista-ol--cuadro.lista-centrada.text-center.mb-3
               li
@@ -243,7 +243,7 @@
             p.borde-bottom.mb-2 (440 gr)
             p por el número de madejas de
             h3.mb-0 777,5 metros      
-        .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5
+        .col-lg-4.tarjeta.tarjeta--gris.tarjeta-num.p-5.mb-2
           .row.justify-content-md-center.text-center
             ol.lista-ol--cuadro.lista-centrada.text-center.mb-3
               li
@@ -268,54 +268,54 @@
         caption Tabla 1. Calibres y números de hilos comerciales más populares
         thead
           tr
-            th Número de hilo
-            th(colspan='2') Calibre de aguja a utilizar
+            th.col1 Número de hilo
+            th(colspan='2').col2-3 Calibre de aguja a utilizar
             th(rowspan='2') Descripción y uso general en las prendas
           tr
-            td.text-center TEX
-            td.text-center Denominación Singer
-            td.text-center Denominación Numérica           
+            td.text-center.col1 TEX
+            td.text-center.col2 Denominación Singer
+            td.text-center.col3 Denominación Numérica           
         tbody
             
           tr
-            td 18
-            td 70-75
-            td 9-10
+            td.col1 18
+            td.col2 70-75
+            td.col3 9-10
             td Costuras generales en telas ultralivianas y livianas sintéticas, mezclas o 100% algodón, tejido plano y de punto. Blusas, camisas, pañuelos, pantys, corbatas. Telas en microfibras, transparencias, sedas, jersey, etc., puntada invisible, filetes dinos, amarre de bordados, capullos para acolchados.
           tr
-            td 24
-            td 70-80
-            td 10-12
+            td.col1 24
+            td.col2 70-80
+            td.col3 10-12
             td Costuras generales más resistentes en telas livianas sintéticas, mezclas o 100% algodón, tejido plano y de punto. Blusas, camisas, ropa interior femenina y masculina, lencería, acolchados, ropa de cama.
           tr
-            td 30
-            td 80
-            td 12
+            td.col1 30
+            td.col2 80
+            td.col3 12
             td Costuras generales más resistentes en telas livianas sintéticas, mezclas o 100% algodón, tejido plano y de punto. Blusas, camisas, ropa interior femenina y masculina, lencería, pantalonería, ropa deportiva, sudadera, trajes de baño
           tr
-            td 40
-            td 90
-            td 14
+            td.col1 40
+            td.col2 90
+            td.col3 14
             td Costuras generales en telas livianas sintéticas, mezclas O 100% algodón, tejido plano y de punto, pantalones, vestidos tipo sastre, chaquetas, ropa deportiva, sudaderas, ojal de lágrima, trajes de baño, driles medianos, acolchados, edredones.
           tr
-            td 60
-            td 100
-            td 16-18
+            td.col1 60
+            td.col2 100
+            td.col3 16-18
             td Pespunte en driles semipesados, ropa de trabajo, uniformes, fajas, guantes, camisas para camping, costura de amarre en jeans (12-14 onzas).
           tr
-            td 80
-            td 125
-            td 20
+            td.col1 80
+            td.col2 125
+            td.col3 20
             td Pespunte en driles semipesados, ropa de trabajo, uniformes.    
           tr
-            td 105
-            td 130
-            td 21
+            td.col1 105
+            td.col2 130
+            td.col3 21
             td Telas pesadas y semipesados, costuras de realce en jeans, (12-14 onzas).
           tr
-            td 120
-            td 130-140
-            td 21-22
+            td.col1 120
+            td.col2 130-140
+            td.col3 21-22
             td Telas pesadas, costuras de realce en jeans, (12-14 onzas).   
 
     
