@@ -237,7 +237,7 @@ export default {
         titulo: 'Punta de bola ligera',
         texto:
           'Para tejidos elásticos o de estructura gruesa o tejidos con contenido de caucho o elastómero.',
-        imagen: require('@/assets/curso/punta-de-bola -ligera.jpg'),
+        imagen: require('@/assets/curso/punta-de-bola-ligera.jpg'),
       },
       {
         titulo: 'Punta de bola mediana',

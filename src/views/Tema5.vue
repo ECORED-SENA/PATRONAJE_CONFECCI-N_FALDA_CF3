@@ -23,7 +23,7 @@
             strong la ficha técnica 
             | de la falda básica, en ella encontrarán la descripción de las características de la prenda que se han estudiado a través del proceso formativo. Además de la explicación detallada del proceso de confección, presentado en un orden operacional. 
             p.p-3
-            a.boton.boton--a(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.boton.boton--a(:href="obtenerLink('/downloads/Ficha_tecnica_falda_basica.pdf')" target="_blank")
               span Descargar ficha técnica
               i.fas.fa-file-download
 

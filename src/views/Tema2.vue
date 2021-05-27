@@ -818,17 +818,21 @@
               .lista-ol--cuadro__vineta
                 span c
               | Canal de residuos: separa los residuos generados en el proceso de costura.
-            li.mb-5
+            li.mb-5 
               .lista-ol--cuadro__vineta
                 span d
-              | Varilla de embrague: conecta el pedal con el embrague del motor.   
+              | Estante: sostiene la mesa y los pedales.              
             li.mb-5
               .lista-ol--cuadro__vineta
                 span e
-              | Pedal izquierdo: acelera o frena la velocidad de la fileteadora.
+              | Varilla de embrague: conecta el pedal con el embrague del motor.   
             li.mb-5
               .lista-ol--cuadro__vineta
                 span f
+              | Pedal izquierdo: acelera o frena la velocidad de la fileteadora.
+            li.mb-5
+              .lista-ol--cuadro__vineta
+                span g
               | Pedal derecho: levanta el prénsatela.         
       .col-lg-6
         .p-2
@@ -953,7 +957,7 @@
           p La imagen a continuación presenta derecho y revés de tela, para hacer esta puntada se enhebra una aguja, looper superior y looper inferior, para ello se propone el siguiente ejemplo de uso: unir hombros, cerrar costados, colocar mangas en una camiseta o sobre orillar piezas como falsos, pretinas. 
       .col-lg-5
           figure
-            img(src="@/assets/curso/fileteadora- tres-hilos.jpg", alt="Fileteadora de tres hilos")
+            img(src="@/assets/curso/fileteadora-tres-hilos.jpg", alt="Fileteadora de tres hilos")
             figcaption Fileteadora de tres hilos
       .col-lg-5
           figure
