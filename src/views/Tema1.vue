@@ -9,9 +9,9 @@
       .h3 Hilos para confección: clasificación y usos
 
     .row.mb-5
-      .video
-        iframe(width="560" height="315" src="https://youtu.be/Hx2TNdWU48g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-   
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Hx2TNdWU48g" title="Hilos para confección: clasificación y usos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     // 1.1
     #t_1_1.titulo-segundo.h4.mb-5 1.1. Características del hilo de coser

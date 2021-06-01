@@ -31,20 +31,24 @@
       p.mb-5 Para dar un buen cierre a este proceso formativo se le invita a observar el paso a paso de confección de falda básica, se recomienda identificar los métodos de trabajo asociados a los procesos de costura, lo cuales deberá aplicar en el ejercicio de confección de la falda. 
 
       .h5 1. Alistamiento
-      .video.mb-5
-        iframe(width="560" height="315" src="https://youtu.be/Ded13sVkftw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figure.mb-5
+        .video.mb-5
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Ded13sVkftw" title="Alistamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 2. Procesos de preparación
-      .video.mb-5
-        iframe(width="560" height="315" src="https://youtu.be/qYml4Zt6HwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figure.mb-5
+        .video.mb-5
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/qYml4Zt6HwQ" title="Procesos de preparación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 3. Procesos de ensamble
-      .video.mb-5
-        iframe(width="560" height="315" src="https://youtu.be/N_HOblGA_SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figure.mb-5
+        .video.mb-5
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/N_HOblGA_SU" title="Procesos de ensamble" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 4. Procesos de terminación
-      .video.mb-5
-        iframe(width="560" height="315" src="https://youtu.be/Q4TtVwonSdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figure.mb-5
+        .video.mb-5
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Q4TtVwonSdQ" title="Procesos de terminación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>
