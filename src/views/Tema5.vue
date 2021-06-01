@@ -31,20 +31,20 @@
       p.mb-5 Para dar un buen cierre a este proceso formativo se le invita a observar el paso a paso de confección de falda básica, se recomienda identificar los métodos de trabajo asociados a los procesos de costura, lo cuales deberá aplicar en el ejercicio de confección de la falda. 
 
       .h5 1. Alistamiento
-      figure
-        img.mb-5(src='@/assets/curso/video-5-1.jpg', alt='Video')
+      .video.mb-5
+        iframe(width="560" height="315" src="https://youtu.be/Ded13sVkftw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 2. Procesos de preparación
-      figure
-        img.mb-5(src='@/assets/curso/video-5-2.jpg', alt='Video')     
+      .video.mb-5
+        iframe(width="560" height="315" src="https://youtu.be/qYml4Zt6HwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 3. Procesos de ensamble
-      figure
-        img.mb-5(src='@/assets/curso/video-5-1.jpg', alt='Video')
+      .video.mb-5
+        iframe(width="560" height="315" src="https://youtu.be/N_HOblGA_SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .h5 4. Procesos de terminación
-      figure
-        img.mb-5(src='@/assets/curso/video-5-2.jpg', alt='Video')              
+      .video.mb-5
+        iframe(width="560" height="315" src="https://youtu.be/Q4TtVwonSdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

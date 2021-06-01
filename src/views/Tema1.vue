@@ -9,8 +9,8 @@
       .h3 Hilos para confección: clasificación y usos
 
     .row.mb-5
-      figure
-        img(src="@/assets/curso/ejm-video.jpg", alt="Video")
+      .video
+        iframe(width="560" height="315" src="https://youtu.be/Hx2TNdWU48g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
     
     // 1.1
@@ -171,7 +171,7 @@
           
 
     // 1.4
-    #t_1_4.titulo-segundo.h4.mb-5 1.4.	Numeración de los hilos
+    #t_1_4.titulo-segundo.h4 1.4.	Numeración de los hilos
 
     .row.mb-5
       .col-lg-6
@@ -365,7 +365,7 @@
 
 
     // 1.7
-    #t_1_7.titulo-segundo.h4.mb-5 1.7.	Conservación de los hilos
+    #t_1_7.titulo-segundo.h4 1.7.	Conservación de los hilos
 
     .row.mb-5
       .col-lg-6

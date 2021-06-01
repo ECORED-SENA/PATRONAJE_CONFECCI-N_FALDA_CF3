@@ -656,7 +656,7 @@
                 .col-lg-6
                   figure
                     img(src="@/assets/curso/cabezote-fileteadora-tensores.jpg", alt="Tensores")
-                .col-lg-6.p-3
+                .col-lg-6.p-4
                   p 
                     strong Tensores
                   p Tienen 2 platillos metálicos por donde debe pasar el hilo, permiten soltar o apretar la tensión de la puntada.              
@@ -718,7 +718,7 @@
                 .col-lg-6
                   figure
                     img(src="@/assets/curso/dellate1-boton-graduador-largo -puntada.jpg", alt="Botón graduador de largo de puntada")
-                .col-lg-6.p-3
+                .col-lg-6.p-4
                   p 
                     strong Botón graduador de largo de puntada
                   p Sirve para graduar el número de puntadas con que debemos filetear. Se trabaja junto con el tablero o con el volante.  
@@ -740,7 +740,7 @@
                 .col-lg-6
                   figure
                     img(src="@/assets/curso/dellate1-cuchilla-fija.jpg", alt="Cuchilla fija y cuchilla movible")
-                .col-lg-6.p-3
+                .col-lg-6.p-4
                   p 
                     strong Cuchilla fija y cuchilla movible
                   p Son las encargadas de cortar o refilar el material.               
@@ -751,7 +751,7 @@
                 .col-lg-6
                   figure
                     img(src="@/assets/curso/dellate1-dientes-arrastre.jpg", alt="Dientes de arrastre.")
-                .col-lg-6.p-3
+                .col-lg-6.p-4
                   p 
                     strong Dientes de arrastre
                   p Son los que hacen que la tela se deslice hacia atrás al ser fileteada.   
