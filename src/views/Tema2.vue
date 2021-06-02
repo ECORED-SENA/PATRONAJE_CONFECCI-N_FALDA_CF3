@@ -11,7 +11,7 @@
     figure.mb-4
       img(src='@/assets/curso/banner-tema2.jpg', alt='Maquinaria, equipos y herramientas para la confección de falda básica: tipos y usos')
     p.mb-5 Amaden-Crawford (2014), define la función de la máquina de coser así 
-      strong “la máquina de coser utiliza una aguja y un gancho rotatorio para entrelzar dos hilos creando así un prespunte, esa es su función”, 
+      strong “la máquina de coser utiliza una aguja y un gancho rotatorio para entrelazar dos hilos creando así un pespunte, esa es su función”, 
       | en la actualidad existen gran variedad de máquinas utilizadas para la confección de prendas de vestir que se encuentran divididas según su uso en familiares e industriales, como se explicará a continuación.  
     
 
@@ -35,7 +35,7 @@
     .row.mb-5
       .col-lg-7
         .p-2.mb-3.mb-lg-0
-          p.mb-4 Son máquinas que están diseñadas para procesos de producción a gran escala que se clasifican según el tipo de puntada, esto quiere decir que, con cada una de ellas, se puede realizar operaciones especificas gracias a su puntada particular.  Para su utilización es importante tener en cuenta la calibración o la puesta a punto de la máquina según el tipo de material a confeccionar, así mismo cumplir con los requisitos de seguridad industrial en la manipulación. 
+          p.mb-4 Son máquinas que están diseñadas para procesos de producción a gran escala que se clasifican según el tipo de puntada, esto quiere decir que, con cada una de ellas, se puede realizar operaciones específicas gracias a su puntada particular.  Para su utilización es importante tener en cuenta la calibración o la puesta a punto de la máquina según el tipo de material a confeccionar, así mismo cumplir con los requisitos de seguridad industrial en la manipulación. 
           p.mb-4 En este punto se hará un reconocimiento de la maquinaria industrial utilizada en los procesos de confección (tipos y características):        
       .col-lg-5
         .p-2
@@ -131,7 +131,7 @@
                 .col-lg-6.p-3
                   p 
                     strong Regulador largo de puntada
-                  p Posibilita determinar la longitud de puntada que se requiere, según e tejido e hilado.               
+                  p Posibilita determinar la longitud de puntada que se requiere, según el tejido e hilado.               
           .lg-hotspot.lg-hotspot--1.lg-mobile1-5(style="top: 64%;left: 75%;")  
             .lg-hotspot__button
             .lg-hotspot__label
@@ -153,7 +153,7 @@
                 .col-lg-6.p-3
                   p 
                     strong Volante o polea
-                  p Esta fija al eje del motor y con ella se encaja la correa. 
+                  p Está fija al eje del motor y con ella se encaja la correa. 
           .lg-hotspot.lg-hotspot--2.lg-mobile1-7(style="top: 67%;left: 12%;")  
             .lg-hotspot__button
             .lg-hotspot__label
@@ -282,7 +282,7 @@
                 span d
               | Embrague
               br
-              | Al ser accionado pone la maquina en funcionamiento, también actúa como freno.
+              | Al ser accionado pone la máquina en funcionamiento, también actúa como freno.
       .col-lg-6
         .p-2
           figure
@@ -346,7 +346,7 @@
                 | Se colocan los hilos en la porta conos.
               li 
                 i.fas.fa-angle-double-right
-                | Se lleva el hilo por los guías hilos, por entre los discos tensores, el muelle refrenamiento o tira hilo resortado; luego se enhebra la palanca tira hilo; se continua por las guías hilos y, por último, pasa el hilo por el ojo de la aguja, teniendo en cuenta que sea por el lado de la ranura. 
+                | Se lleva el hilo por los guías hilos, por entre los discos tensores, el muelle refrenamiento o tira hilo resortado; luego se enhebra la palanca tira hilo; se continúa por las guías hilos y, por último, pasa el hilo por el ojo de la aguja, teniendo en cuenta que sea por el lado de la ranura. 
         .p-2
           figure
             img(src="@/assets/curso/enhebrado-aguja.jpg", alt="Enhebrado de la aguja")
@@ -415,7 +415,7 @@
       .col-lg-5
         .p-2.mb-5.mb-lg-0
           .h5 Colocación de la caja bobina en el gancho de la máquina  
-          p.mb-4 Se toma la caja bobina por el pestillo y se coloca en la canastilla de la caja bobina; la colocación correcta de la caja bobina es de mucha importancia pues si ésta choca con la aguja causaría daños a la caja bobina, al garfio y rotura a la misma aguja. Siempre que se vaya a retirar o colocar la caja bobina obsérvese que la aguja este en su parte más alta.
+          p.mb-4 Se toma la caja bobina por el pestillo y se coloca en la canastilla de la caja bobina; la colocación correcta de la caja bobina es de mucha importancia pues si esta choca con la aguja causaría daños a la caja bobina, al garfio y rotura a la misma aguja. Siempre que se vaya a retirar o colocar la caja bobina obsérvese que la aguja esté en su parte más alta.
       .col-lg-7
         .p-2
           figure
@@ -575,7 +575,7 @@
           tr            
             td Falta presión en la barra del pie.
           tr            
-            td El pie no es el indicado para esté trabajo.
+            td El pie no es el indicado para este trabajo.
           tr            
             td El pie no se asienta bien sobre la planchuela.  
           tr
@@ -728,10 +728,10 @@
               .row.align-items-center
                 .col-lg-6
                   figure
-                    img(src="@/assets/curso/dellate1-prensatela.jpg", alt="Prénsatela")
+                    img(src="@/assets/curso/dellate1-prensatela.jpg", alt="Prensatela")
                 .col-lg-6.p-3
                   p 
-                    strong Prénsatela
+                    strong Prensatela
                   p Es movible y permite el transporte de la tela ajustándola.              
           .lg-hotspot.lg-hotspot--1.lg-mobile5-3(style="top: 67%;left: 63%;")  
             .lg-hotspot__button
@@ -833,7 +833,7 @@
             li.mb-5
               .lista-ol--cuadro__vineta
                 span g
-              | Pedal derecho: levanta el prénsatela.         
+              | Pedal derecho: levanta el prensatela.         
       .col-lg-6
         .p-2
           figure
@@ -857,7 +857,7 @@
             li.mb-3
               .lista-ol--cuadro__vineta
                 span b
-              | Embrague: al ser accionado pone la maquina en funcionamiento, también actúa como freno.  
+              | Embrague: al ser accionado pone la máquina en funcionamiento, también actúa como freno.  
             li.mb-3 
               .lista-ol--cuadro__vineta
                 span c
@@ -865,7 +865,7 @@
             li.mb-3
               .lista-ol--cuadro__vineta
                 span d
-              |Polea: esta fija al eje del motor y en ella encaja la correa. 
+              |Polea: está fija al eje del motor y en ella encaja la correa. 
       .col-lg-6
         .p-2
           figure
@@ -1324,33 +1324,33 @@ export default {
     indicador5: true,
     datosSlyder: [
       {
-        titulo: 'Conjunto del prénsatela',
+        titulo: 'Conjunto del prensatela',
         texto:
-          '<ul class="lista-ul--color"><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Barra prénsatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Regulador de la presión del prénsatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Palanca articulada para accionar el prénsatela manualmente.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Rodillera.</li> </ul>',
+          '<ul class="lista-ul--color"><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Barra prensatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Regulador de la presión del prensatela.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Palanca articulada para accionar el prensatela manualmente.</li> <br><li><i data-v-a676a67a="" class="fas fa-dot-circle"></i> Rodillera.</li> </ul>',
         imagen: require('@/assets/curso/partes-cabezote1.jpg'),
       },
       {
-        titulo: 'Barra prénsatela',
+        titulo: 'Barra prensatela',
         texto:
-          'En su extremo se fija el pie prénsatela, por su parte superior recibe la presión ejercida por un resorte o muelle.',
+          'En su extremo se fija el pie prensatela, por su parte superior recibe la presión ejercida por un resorte o muelle.',
         imagen: require('@/assets/curso/partes-cabezote2.jpg'),
       },
       {
-        titulo: 'Regulador de la presión del prénsatela',
+        titulo: 'Regulador de la presión del prensatela',
         texto:
-          'controla la presión del pie prénsatela, para asegurar el transporte uniforme de los materiales por coser. Se debe regular según el grosor del material.',
+          'Controla la presión del pie prensatela, para asegurar el transporte uniforme de los materiales por coser. Se debe regular según el grosor del material.',
         imagen: require('@/assets/curso/partes-cabezote3.jpg'),
       },
       {
-        titulo: 'Palanca articulada para accionar el prénsatela manualmente',
+        titulo: 'Palanca articulada para accionar el prensatela manualmente',
         texto:
-          'Levanta o baja el prénsatela; se usa en casos especiales, tales como enhebrado, devanado o reparación de la máquina.',
+          'Levanta o baja el prensatela; se usa en casos especiales, tales como enhebrado, devanado o reparación de la máquina.',
         imagen: require('@/assets/curso/partes-cabezote4.jpg'),
       },
       {
         titulo: 'Rodillera',
         texto:
-          'Levanta y baja el prénsatela con la presión de la rodilla, dejando las manos de la operaria libres para mover el material.',
+          'Levanta y baja el prensatela con la presión de la rodilla, dejando las manos de la operaria libres para mover el material.',
         imagen: require('@/assets/curso/partes-cabezote5.jpg'),
       },
     ],
@@ -1403,7 +1403,7 @@ export default {
       },
       {
         titulo: 'Destornillador de pala',
-        texto: 'Utilizado para cambiar agujas y pies prénsatela.',
+        texto: 'Utilizado para cambiar agujas y pies prensatela.',
         imagen: require('@/assets/curso/destornillador-pala.jpg'),
       },
       {
