@@ -970,7 +970,7 @@
       .row.justify-content-md-center.mb-2.p-2
         .col-lg-10
           .h6.titulo__template--a Fileteadora de cuatro hilos, puntada de refuerzo 514
-          p La imagen a continuación presenta derecho y revés de tela, para realizar esta puntada se enhebran las dos agujas, el looper superior y el looper inferior. Su uso se da em la confección de ropa deportiva y prendas elaboradas en tejido de punto. 
+          p La imagen a continuación presenta derecho y revés de tela, para realizar esta puntada se enhebran las dos agujas, el looper superior y el looper inferior. Su uso se da en la confección de ropa deportiva y prendas elaboradas en tejido de punto. 
       .col-lg-5
           figure
             img(src="@/assets/curso/fileteadora-cuatro-hilos.jpg", alt="Fileteadora de cuatro hilos")
