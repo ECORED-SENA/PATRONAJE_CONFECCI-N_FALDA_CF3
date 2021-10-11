@@ -169,11 +169,7 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -303,7 +299,8 @@ export default {
     },
     {
       referencia: 'Icontec (2013). NTC 2089. Hilos de algodón para coser.',
-      link: 'https://www.icontec.org/rules/hilos-de-algodon-para-coser/',
+      link:
+        'https://tienda.icontec.org/gp-hilos-de-algodon-para-coser-ntc2089-2013.html',
     },
   ],
   glosario: [
